@@ -1,15 +1,15 @@
-# Python - if/else, loops, functions
+ Python - if/else, loops, functions
 
 In this project, I began utilizing conditionals and loops in Python by using `if`,
 `if ... else`, `break`, `continue`, `pass`, and `range` statements with `while` and
 `for` loops. I practiced writing my own Python functions while learning about scope of
 variables, tracebacks, and arithmetic operators.
 
-## Tests :heavy_check_mark:
+## Tests :heavy check mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.
 
-## Function Prototypes :floppy_disk:
+## Function Prototypes :floppy disk:
 
 Prototypes for functions written in this project:
 
@@ -25,10 +25,10 @@ Prototypes for functions written in this project:
 | `101-remove_char_at.py`    | `def remove_char_at(str, n):`                           |
 | `102-magic_calculation.py` | `def magic_calculation(a, b, c):`                       |
 
-## Tasks :page_with_curl:
+## Tasks :page with curl:
 
 * **0. Positive anything is better than negative nothing**
-  * [0-positive_or_negative.py](./0-positive_or_negative.py): Python program that assigns
+  * [0-positive or negative.py](./0-positive_or_negative.py): Python program that assigns
   a random signed number to the variable `number` each time it is executed and
   prints whether `number` is positive or negative.
   * Prints the number followed by:
@@ -39,7 +39,7 @@ Prototypes for functions written in this project:
   * Completion of [this source code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py).
 
 * **1. The last digit**
-  * [1-last_digit.py](./1-last_digit.py): Python program that assigns a random signed number
+  * [1-last digit.py](./1-last_digit.py): Python program that assigns a random signed number
   to the variable `number` each time it is executed and prints its last digit.
   * Prints the string `Last digit of [number] is [last_digit]` followed by:
     * If the number is greater than 5: `and is greater than 5`
@@ -49,34 +49,34 @@ Prototypes for functions written in this project:
   * Completion of [this source code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py).
 
 * **2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game**
-  * [2-print_alphabet.py](./2-print_alphabet.py): Python program that prints the alphabet
+  * [2-prin _alphabet.py](./2-print_alphabet.py): Python program that prints the alphabet
   in lowercase, not followed by a new line.
   * Using only one `print` and one loop.
   * Without storing characters in variables or importing modules.
 
 * **3. When I was having that alphabet soup, I never thought that it would pay off**
-  * [3-print_alphabt.py](./3-print_alphabt.py): Python program that prints the
+  * [3-print alphabt.py](./3-print_alphabt.py): Python program that prints the
   alphabet in lowercase, followed by a new line.
   * Using only one `print` and one loop.
   * Without storing characters in variables or importing modules.
   * Prints every letter except for `q` and `e`.
 
 * **4. Hexadecimal printing**
-  * [4-print_hexa.py](./4-print_hexa.py): Python program that prints all numbers from
+  * [4-print hexa.py](./4-print_hexa.py): Python program that prints all numbers from
   `0` to `98` in decimal and hexadecimal.
   * Using only one `print` and one loop.
   * Without storing numbers or strings in variables or importing modules.
   * Printing format: `[decimal] = [hexadecimal]`
 
 * **5. 00...99**
-  * [5-print_comb2.py](./5-print_comb2.py): Python program that prints numbers from `0`
+  * [5-print comb2.py](./5-print_comb2.py): Python program that prints numbers from `0`
   to `99` two digits each.
   * Numbers are separated by `, `, except for the last number, which is followed by a new line.
   * Using no more than two `print` functions and one loop.
   * Without storing numbers or strings in variables or importing modules.
 
 * **6. Inventing is a combination of brains and materials. The more brains you use, the less material you need**
-  * [6-print_comb3.py](./6-print_comb3.py): Python program that prints all possible
+  * [6-print comb3.py](./6-print_comb3.py): Python program that prints all possible
   different combinations of two digits in ascending order.
   * Numbers are separated by `, `, except for the last number, which is followed by a new line.
   * The two digits must be different - `01` and `10` are considered identical.
@@ -95,7 +95,7 @@ Prototypes for functions written in this project:
   * Without importing modules or using `str.upper()` or `str.isupper()`.
 
 * **9. There are only 3 colors, 10 digits, and 7 notes; its what we do with them that's important**
-  * [9-print_last_digit.py](./9-print_last_digit.py): Python function that prints the last
+  * [9-print last digit.py](./9-print_last_digit.py): Python function that prints the last
   digit of a number.
   * Returns the value of the last digit.
   * Without importing modules.
@@ -117,29 +117,29 @@ Prototypes for functions written in this project:
   * Without importing modules.
 
 * **13. Insert in sorted linked list**
-  * [13-insert_number.c](./13-insert_number.c): C function that inserts a number
+  * [13-insert number.c](./13-insert_number.c): C function that inserts a number
   into a sorted linked list.
   * If the function fails, returns `NULL`.
   * Otherwise, returns the address of the new node.
   * Helper files:
-    * [linked_lists.c](./linked_lists.c): C functions handling linked lists for testing
+    * [linked lists.c](./linked_lists.c): C functions handling linked lists for testing
     [13-insert_number.c](./13-insert_number.c) (provided by Holberton School).
     * [lists.h](./lists.h): Header file containing definitions and prototypes for
     all types and functions used in [linked_lists.c](./linked_lists.c) and
     [13-insert_number.c](./13-insert_number.c).
 
 * **14. Smile in the mirror**
-  * [100-print_tebahpla.py](./100-print_tebahpla.py): Python program that prints the alphabet
+  * [100-print tebahpla.py](./100-print_tebahpla.py): Python program that prints the alphabet
   in reverse order, alternating lowercase and uppercase, not followed by a new line.
   * Using only one `print` and one loop.
   * Without storing characters in variables or importing modules.
 
 * **15. Remove at position**
-  * [101-remove_char_at.py](./101-remove_char_at_py): Python function that
+  * [101-remove char at.py](./101-remove_char_at_py): Python function that
   creates a copy of a string without the character at position `n`.
   * Without importing modules.
 
 * **16. ByteCode -> Python #2**
-  * [102-magic_calculation.py](./102-magic_calculation.py): Python function matching exactly a
+  * [102-magic calculation.py](./102-magic_calculation.py): Python function matching exactly a
   bytecode.
 
